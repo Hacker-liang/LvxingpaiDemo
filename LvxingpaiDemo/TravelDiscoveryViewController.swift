@@ -17,11 +17,13 @@ class TravelDiscoveryViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.automaticallyAdjustsScrollViewInsets = false
         imageView = UIImageView(image: UIImage(named: "travelDiscovery.png"))
         imageView.frame = CGRectMake(0, 0, self.view.bounds.size.width, imageView.bounds.size.height)
         self.scrollView.addSubview(imageView)
         self.scrollView.contentSize = imageView.frame.size
-        self.navigationController?.navigationBarHidden = true
+        
+        self.navigationController?.title = "发现旅行"
     }
 
     override func didReceiveMemoryWarning() {
