@@ -30,12 +30,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jZ5-ji-svQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="967" y="17"/>
+            <point key="canvasLocation" x="1175" y="-503"/>
         </scene>
-        <!--View Controller-->
+        <!--Travel Destination View Controller-->
         <scene sceneID="oGB-0M-mnv">
             <objects>
-                <viewController id="9M6-Pq-C37" sceneMemberID="viewController">
+                <viewController id="9M6-Pq-C37" customClass="TravelDestinationViewController" customModule="LvxingpaiDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YpS-OW-T8j"/>
                         <viewControllerLayoutGuide type="bottom" id="vPk-kA-Q1d"/>
@@ -51,15 +51,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="zk0-fR-3Uy"/>
+                    <connections>
+                        <outlet property="scrollView" destination="zBM-jB-JCu" id="n82-Ic-G0i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IiU-Bq-dLN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="937" y="713"/>
+            <point key="canvasLocation" x="1175" y="193"/>
         </scene>
-        <!--View Controller-->
+        <!--Mine View Controller-->
         <scene sceneID="mup-BZ-zyH">
             <objects>
-                <viewController id="WNb-3E-bDb" sceneMemberID="viewController">
+                <viewController id="WNb-3E-bDb" customClass="MineViewController" customModule="LvxingpaiDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r6g-u5-X3N"/>
                         <viewControllerLayoutGuide type="bottom" id="cEf-ho-4io"/>
@@ -75,10 +78,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Cdd-q5-MBl"/>
+                    <connections>
+                        <outlet property="scrollView" destination="JD3-fA-wOp" id="nIs-mu-rge"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HGu-lf-Yrp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="937" y="1389"/>
+            <point key="canvasLocation" x="1175" y="869"/>
         </scene>
         <!--Travel Discovery View Controller-->
         <scene sceneID="f2S-zj-lnl">
@@ -111,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FU0-iP-BUe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="967" y="-645"/>
+            <point key="canvasLocation" x="1175" y="-1165"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="cgC-mz-G0m">
@@ -134,11 +140,11 @@
             </objects>
             <point key="canvasLocation" x="-665" y="-313"/>
         </scene>
-        <!--Item 1-->
+        <!--发现-->
         <scene sceneID="g2l-eu-gfs">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vP7-P8-U3C" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" id="juG-lS-o1n"/>
+                    <tabBarItem key="tabBarItem" title="发现" image="icon_tabbar_discovery_normal.png" id="juG-lS-o1n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jOJ-IL-7vR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -151,13 +157,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xht-Mz-ch3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="155" y="-645"/>
+            <point key="canvasLocation" x="363" y="-1165"/>
         </scene>
-        <!--Item 2-->
+        <!--消息-->
         <scene sceneID="uJl-Ra-1F2">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="elr-xg-FG9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="8Ti-i5-vME"/>
+                    <tabBarItem key="tabBarItem" title="消息" image="icon_tabbar_chat_normal.png" id="8Ti-i5-vME"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xNW-Lg-KMI">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -170,13 +176,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u9n-bW-N5e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="155" y="17"/>
+            <point key="canvasLocation" x="363" y="-503"/>
         </scene>
-        <!--Item-->
+        <!--目的地-->
         <scene sceneID="O5E-we-ZbZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YIG-ap-SEU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7xu-wq-hco"/>
+                    <tabBarItem key="tabBarItem" title="目的地" image="icon_tabbar_destination_normal.png" id="7xu-wq-hco"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="F4m-4c-ftq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -189,13 +195,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iQb-bh-tP4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125" y="713"/>
+            <point key="canvasLocation" x="363" y="193"/>
         </scene>
-        <!--Item-->
+        <!--我的-->
         <scene sceneID="Bfo-eH-NNc">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xpk-yL-Cqf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="l0Z-eW-FPY"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="icon_tabbar_mine_normal.png" id="l0Z-eW-FPY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fk2-LM-7eR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -208,7 +214,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O34-fs-uua" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125" y="1389"/>
+            <point key="canvasLocation" x="363" y="869"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_tabbar_chat_normal.png" width="21" height="21"/>
+        <image name="icon_tabbar_destination_normal.png" width="21" height="21"/>
+        <image name="icon_tabbar_discovery_normal.png" width="21" height="21"/>
+        <image name="icon_tabbar_mine_normal.png" width="21" height="21"/>
+    </resources>
 </document>

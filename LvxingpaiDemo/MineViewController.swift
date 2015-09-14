@@ -1,14 +1,14 @@
 //
-//  TravelCategoryViewController.swift
+//  MineViewController.swift
 //  LvxingpaiDemo
 //
-//  Created by liangpengshuai on 9/11/15.
+//  Created by liangpengshuai on 9/14/15.
 //  Copyright (c) 2015 com.xujianinc.www. All rights reserved.
 //
 
 import UIKit
 
-class TravelCategoryViewController: UIViewController {
+class MineViewController: UIViewController {
 
     @IBOutlet weak var scrollView: UIScrollView!
     
@@ -17,16 +17,18 @@ class TravelCategoryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.automaticallyAdjustsScrollViewInsets = false
-        imageView = UIImageView(image: UIImage(named: "travelCategory.png"))
+        imageView = UIImageView(image: UIImage(named: "travelMine.png"))
         imageView.frame = CGRectMake(0, 0, self.view.bounds.size.width, imageView.bounds.size.height)
         self.scrollView.addSubview(imageView)
         self.scrollView.contentSize = imageView.frame.size
         
-        self.navigationItem.title = "分类"
-
+        self.navigationItem.title = "我"
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+
+
 }

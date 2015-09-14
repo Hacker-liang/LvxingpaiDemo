@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D97DB4B41BA6674A00D58154 /* TravelDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97DB4B31BA6674A00D58154 /* TravelDestinationViewController.swift */; };
+		D97DB4B61BA6675600D58154 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97DB4B51BA6675600D58154 /* MineViewController.swift */; };
+		D97DB4B91BA6692500D58154 /* travelMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4B71BA6692500D58154 /* travelMine@2x.png */; };
+		D97DB4BA1BA6692500D58154 /* travelDestination@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4B81BA6692500D58154 /* travelDestination@2x.png */; };
+		D97DB4C61BA6692E00D58154 /* icon_tabbar_discovery_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4BC1BA6692E00D58154 /* icon_tabbar_discovery_selected@2x.png */; };
+		D97DB4C71BA6692E00D58154 /* icon_tabbar_discovery_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4BD1BA6692E00D58154 /* icon_tabbar_discovery_normal@2x.png */; };
+		D97DB4C81BA6692E00D58154 /* icon_tabbar_chat_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4BE1BA6692E00D58154 /* icon_tabbar_chat_normal@2x.png */; };
+		D97DB4C91BA6692E00D58154 /* icon_tabbar_chat_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4BF1BA6692E00D58154 /* icon_tabbar_chat_selected@2x.png */; };
+		D97DB4CA1BA6692E00D58154 /* icon_tabbar_destination_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4C01BA6692E00D58154 /* icon_tabbar_destination_selected@2x.png */; };
+		D97DB4CB1BA6692E00D58154 /* icon_tabbar_destination_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4C11BA6692E00D58154 /* icon_tabbar_destination_normal@2x.png */; };
+		D97DB4CC1BA6692E00D58154 /* icon_tabbar_mine_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4C21BA6692E00D58154 /* icon_tabbar_mine_normal@2x.png */; };
+		D97DB4CD1BA6692E00D58154 /* icon_tabbar_mine_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4C31BA6692E00D58154 /* icon_tabbar_mine_selected@2x.png */; };
 		D9E9D1D71BA27AB600FB6C07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9D1D61BA27AB600FB6C07 /* AppDelegate.swift */; };
 		D9E9D1DC1BA27AB600FB6C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E9D1DA1BA27AB600FB6C07 /* Main.storyboard */; };
 		D9E9D1DE1BA27AB600FB6C07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E9D1DD1BA27AB600FB6C07 /* Images.xcassets */; };
@@ -29,6 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D97DB4B31BA6674A00D58154 /* TravelDestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelDestinationViewController.swift; sourceTree = "<group>"; };
+		D97DB4B51BA6675600D58154 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		D97DB4B71BA6692500D58154 /* travelMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "travelMine@2x.png"; sourceTree = "<group>"; };
+		D97DB4B81BA6692500D58154 /* travelDestination@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "travelDestination@2x.png"; sourceTree = "<group>"; };
+		D97DB4BC1BA6692E00D58154 /* icon_tabbar_discovery_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_discovery_selected@2x.png"; sourceTree = "<group>"; };
+		D97DB4BD1BA6692E00D58154 /* icon_tabbar_discovery_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_discovery_normal@2x.png"; sourceTree = "<group>"; };
+		D97DB4BE1BA6692E00D58154 /* icon_tabbar_chat_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_chat_normal@2x.png"; sourceTree = "<group>"; };
+		D97DB4BF1BA6692E00D58154 /* icon_tabbar_chat_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_chat_selected@2x.png"; sourceTree = "<group>"; };
+		D97DB4C01BA6692E00D58154 /* icon_tabbar_destination_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_destination_selected@2x.png"; sourceTree = "<group>"; };
+		D97DB4C11BA6692E00D58154 /* icon_tabbar_destination_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_destination_normal@2x.png"; sourceTree = "<group>"; };
+		D97DB4C21BA6692E00D58154 /* icon_tabbar_mine_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_mine_normal@2x.png"; sourceTree = "<group>"; };
+		D97DB4C31BA6692E00D58154 /* icon_tabbar_mine_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_mine_selected@2x.png"; sourceTree = "<group>"; };
 		D9E9D1D11BA27AB600FB6C07 /* LvxingpaiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LvxingpaiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E9D1D51BA27AB600FB6C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9E9D1D61BA27AB600FB6C07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +86,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D97DB4BB1BA6692E00D58154 /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				D97DB4BC1BA6692E00D58154 /* icon_tabbar_discovery_selected@2x.png */,
+				D97DB4BD1BA6692E00D58154 /* icon_tabbar_discovery_normal@2x.png */,
+				D97DB4BE1BA6692E00D58154 /* icon_tabbar_chat_normal@2x.png */,
+				D97DB4BF1BA6692E00D58154 /* icon_tabbar_chat_selected@2x.png */,
+				D97DB4C01BA6692E00D58154 /* icon_tabbar_destination_selected@2x.png */,
+				D97DB4C11BA6692E00D58154 /* icon_tabbar_destination_normal@2x.png */,
+				D97DB4C21BA6692E00D58154 /* icon_tabbar_mine_normal@2x.png */,
+				D97DB4C31BA6692E00D58154 /* icon_tabbar_mine_selected@2x.png */,
+			);
+			path = tab;
+			sourceTree = "<group>";
+		};
 		D9E9D1C81BA27AB600FB6C07 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +129,8 @@
 				D9E9D1F81BA27E2100FB6C07 /* HomeViewController.swift */,
 				D9E9D1FA1BA27FF100FB6C07 /* TravelDiscoveryViewController.swift */,
 				D9E9D1FC1BA2800100FB6C07 /* TravelCategoryViewController.swift */,
+				D97DB4B31BA6674A00D58154 /* TravelDestinationViewController.swift */,
+				D97DB4B51BA6675600D58154 /* MineViewController.swift */,
 				D9E9D2021BA280AB00FB6C07 /* Images */,
 			);
 			path = LvxingpaiDemo;
@@ -123,6 +164,7 @@
 		D9E9D2021BA280AB00FB6C07 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D97DB4BB1BA6692E00D58154 /* tab */,
 				D9E9D2031BA280B500FB6C07 /* HomeImages */,
 			);
 			name = Images;
@@ -133,6 +175,8 @@
 			children = (
 				D9E9D1FE1BA280A500FB6C07 /* travelCategory@2x.png */,
 				D9E9D1FF1BA280A500FB6C07 /* travelDiscovery@2x.png */,
+				D97DB4B71BA6692500D58154 /* travelMine@2x.png */,
+				D97DB4B81BA6692500D58154 /* travelDestination@2x.png */,
 			);
 			name = HomeImages;
 			sourceTree = "<group>";
@@ -217,9 +261,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97DB4C81BA6692E00D58154 /* icon_tabbar_chat_normal@2x.png in Resources */,
+				D97DB4C61BA6692E00D58154 /* icon_tabbar_discovery_selected@2x.png in Resources */,
+				D97DB4C91BA6692E00D58154 /* icon_tabbar_chat_selected@2x.png in Resources */,
+				D97DB4CB1BA6692E00D58154 /* icon_tabbar_destination_normal@2x.png in Resources */,
+				D97DB4C71BA6692E00D58154 /* icon_tabbar_discovery_normal@2x.png in Resources */,
+				D97DB4CC1BA6692E00D58154 /* icon_tabbar_mine_normal@2x.png in Resources */,
+				D97DB4BA1BA6692500D58154 /* travelDestination@2x.png in Resources */,
+				D97DB4B91BA6692500D58154 /* travelMine@2x.png in Resources */,
+				D97DB4CD1BA6692E00D58154 /* icon_tabbar_mine_selected@2x.png in Resources */,
 				D9E9D1DC1BA27AB600FB6C07 /* Main.storyboard in Resources */,
 				D9E9D1DE1BA27AB600FB6C07 /* Images.xcassets in Resources */,
 				D9E9D2011BA280A500FB6C07 /* travelDiscovery@2x.png in Resources */,
+				D97DB4CA1BA6692E00D58154 /* icon_tabbar_destination_selected@2x.png in Resources */,
 				D9E9D2001BA280A500FB6C07 /* travelCategory@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,9 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9E9D1FD1BA2800100FB6C07 /* TravelCategoryViewController.swift in Sources */,
+				D97DB4B41BA6674A00D58154 /* TravelDestinationViewController.swift in Sources */,
 				D9E9D1FB1BA27FF100FB6C07 /* TravelDiscoveryViewController.swift in Sources */,
 				D9E9D1D71BA27AB600FB6C07 /* AppDelegate.swift in Sources */,
 				D9E9D1F91BA27E2100FB6C07 /* HomeViewController.swift in Sources */,
+				D97DB4B61BA6675600D58154 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +489,7 @@
 				D9E9D1F21BA27AB600FB6C07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9E9D1F31BA27AB600FB6C07 /* Build configuration list for PBXNativeTarget "LvxingpaiDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +498,7 @@
 				D9E9D1F51BA27AB600FB6C07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -23,7 +23,7 @@ class TravelDiscoveryViewController: UIViewController {
         self.scrollView.addSubview(imageView)
         self.scrollView.contentSize = imageView.frame.size
         
-        self.navigationController?.title = "发现旅行"
+        self.navigationItem.title = "发现旅行"
     }
 
     override func didReceiveMemoryWarning() {
