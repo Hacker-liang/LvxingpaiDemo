@@ -22,7 +22,7 @@ class TravelDiscoveryViewController: UIViewController {
         imageView.frame = CGRectMake(0, 0, self.view.bounds.size.width, imageView.bounds.size.height)
         self.scrollView.addSubview(imageView)
         self.scrollView.contentSize = imageView.frame.size
-        
+        self.addCategoryButton()
         self.navigationItem.title = "发现旅行"
     }
 
@@ -30,15 +30,19 @@ class TravelDiscoveryViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func addCategoryButton() {
+        let btn = UIButton(frame: CGRectMake(0, 260, self.view.bounds.size.width/2, 100))
+        btn.addTarget(self, action: "gotoCategoryCtl", forControlEvents: UIControlEvents.TouchUpInside)
+        self.scrollView.addSubview(btn)
     }
-    */
+    
+
+   //MARK: IBAction methods
+    
+    func gotoCategoryCtl() {
+        let ctl = TravelCategoryViewController()
+        ctl.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(ctl, animated: true)
+    }
 
 }

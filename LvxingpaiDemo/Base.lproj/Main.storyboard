@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Travel Category View Controller-->
+        <!--Conversation List View Controller-->
         <scene sceneID="ajL-aA-lh6">
             <objects>
-                <viewController id="go6-6c-YqT" customClass="TravelCategoryViewController" customModule="LvxingpaiDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="go6-6c-YqT" customClass="ConversationListViewController" customModule="LvxingpaiDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="S9i-91-B2J"/>
                         <viewControllerLayoutGuide type="bottom" id="xKS-9R-Wen"/>
@@ -24,9 +24,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="E31-a1-cNB"/>
-                    <connections>
-                        <outlet property="scrollView" destination="lfa-3a-Pec" id="oUt-Qu-WKv"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jZ5-ji-svQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

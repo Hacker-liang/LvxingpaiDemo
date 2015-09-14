@@ -16,7 +16,6 @@ class MineViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.automaticallyAdjustsScrollViewInsets = false
         imageView = UIImageView(image: UIImage(named: "travelMine.png"))
         imageView.frame = CGRectMake(0, 0, self.view.bounds.size.width, imageView.bounds.size.height)
         self.scrollView.addSubview(imageView)
