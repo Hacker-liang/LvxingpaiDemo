@@ -19,11 +19,22 @@ class TravelCategoryViewController: UIViewController {
         self.view.backgroundColor = UIColor.whiteColor()
         imageView = UIImageView(image: UIImage(named: "travelCategory.png"))
         imageView.frame = CGRectMake(0, 0, self.view.bounds.size.width, imageView.bounds.size.height)
-        self.scrollView.addSubview(imageView)
-        self.scrollView.contentSize = imageView.frame.size
+//        self.scrollView.addSubview(imageView)
+//        self.scrollView.contentSize = imageView.frame.size
+        
+//        println("scrollView Frame: \(self.scrollView.bounds)")
+        println("self.view Frame: \(self.view.bounds)")
+
         
         self.navigationItem.title = "分类"
-        
+    }
+    
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,15 +42,5 @@ class TravelCategoryViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

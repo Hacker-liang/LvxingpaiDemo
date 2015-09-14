@@ -35,11 +35,11 @@ class TravelDiscoveryViewController: UIViewController {
         btn.addTarget(self, action: "gotoCategoryCtl", forControlEvents: UIControlEvents.TouchUpInside)
         self.scrollView.addSubview(btn)
     }
-    
 
    //MARK: IBAction methods
     
     func gotoCategoryCtl() {
+//        let ctl = TravelCategoryViewController(nibName: "TravelCategoryViewController", bundle: nil)
         let ctl = TravelCategoryViewController()
         ctl.hidesBottomBarWhenPushed = true
         self.navigationController?.pushViewController(ctl, animated: true)
