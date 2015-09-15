@@ -45,6 +45,7 @@ class LightSpotOfPoiViewController: UIViewController {
         self.view.addSubview(backBtn)
         
         self.addButtons()
+        self.addBookBar()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -68,6 +69,13 @@ class LightSpotOfPoiViewController: UIViewController {
             self.scrollView.addSubview(btn)
             btn.addTarget(self, action: "gotoPayList", forControlEvents: UIControlEvents.TouchUpInside)
         }
+    }
+    
+    func addBookBar() {
+        let btn = UIButton(frame: CGRectMake(0, self.view.bounds.size.height-60, self.view.bounds.size.width, 60))
+        btn.setBackgroundImage(UIImage(named: "icon_book.png"), forState: UIControlState.Normal)
+        btn.addTarget(self, action: "gotoPayList", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(btn)
     }
     
     //MARK: IBAction methods

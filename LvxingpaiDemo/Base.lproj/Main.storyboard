@@ -42,7 +42,7 @@
         <!--Travel Destination View Controller-->
         <scene sceneID="oGB-0M-mnv">
             <objects>
-                <viewController id="9M6-Pq-C37" customClass="TravelDestinationViewController" customModule="LvxingpaiDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="destinationCtl" id="9M6-Pq-C37" customClass="TravelDestinationViewController" customModule="LvxingpaiDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YpS-OW-T8j"/>
                         <viewControllerLayoutGuide type="bottom" id="vPk-kA-Q1d"/>

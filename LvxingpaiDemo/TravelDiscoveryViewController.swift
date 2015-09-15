@@ -54,7 +54,11 @@ class TravelDiscoveryViewController: UIViewController {
     }
     
     func gotoDestination() {
-        homeCtl.selectedIndex = 2
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if let ctl = storyboard.instantiateViewControllerWithIdentifier("destinationCtl") as? TravelDestinationViewController {
+            ctl.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(ctl, animated: true)
+        }
     }
 
 }
