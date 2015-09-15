@@ -19,6 +19,7 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfa-3a-Pec">
                                 <rect key="frame" x="0.0" y="5" width="600" height="595"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.94117647059999998" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -50,11 +51,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zBM-jB-JCu">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zBM-jB-JCu">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.94117647059999998" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zBM-jB-JCu" secondAttribute="bottom" id="Ajg-Dh-kkG"/>
+                            <constraint firstAttribute="trailing" secondItem="zBM-jB-JCu" secondAttribute="trailing" id="HWR-wk-VG8"/>
+                            <constraint firstItem="zBM-jB-JCu" firstAttribute="top" secondItem="bxS-pa-jDZ" secondAttribute="top" id="LNr-6N-dH2"/>
+                            <constraint firstItem="zBM-jB-JCu" firstAttribute="leading" secondItem="bxS-pa-jDZ" secondAttribute="leading" id="o7n-Q9-ayG"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zk0-fR-3Uy"/>
                     <connections>
@@ -77,11 +85,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JD3-fA-wOp">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JD3-fA-wOp">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.94117647059999998" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JD3-fA-wOp" firstAttribute="top" secondItem="gxw-qJ-ksD" secondAttribute="top" id="btC-VR-g7z"/>
+                            <constraint firstAttribute="bottom" secondItem="JD3-fA-wOp" secondAttribute="bottom" id="pP9-ai-Jdy"/>
+                            <constraint firstItem="JD3-fA-wOp" firstAttribute="leading" secondItem="gxw-qJ-ksD" secondAttribute="leading" id="sNi-YB-Xci"/>
+                            <constraint firstAttribute="trailing" secondItem="JD3-fA-wOp" secondAttribute="trailing" id="v8j-bx-LvV"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Cdd-q5-MBl"/>
                     <connections>
@@ -106,6 +121,7 @@
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XVW-Uw-0GF">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.94117647058823528" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

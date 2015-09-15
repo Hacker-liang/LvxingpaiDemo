@@ -16,7 +16,8 @@ class PoiPayDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.automaticallyAdjustsScrollViewInsets = false
-        self.view.backgroundColor = UIColor.whiteColor()
+        self.view.backgroundColor = UIColor(red: 239, green: 240, blue: 243, alpha: 1)
+
         scrollView = UIScrollView(frame: CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height))
         self.view.addSubview(scrollView)
         imageView = UIImageView(image: UIImage(named: "payDetail.png"))

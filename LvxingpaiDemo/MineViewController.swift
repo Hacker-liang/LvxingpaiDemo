@@ -16,13 +16,27 @@ class MineViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.automaticallyAdjustsScrollViewInsets = false
         imageView = UIImageView(image: UIImage(named: "travelMine.png"))
         imageView.frame = CGRectMake(0, 0, self.view.bounds.size.width, imageView.bounds.size.height)
         self.scrollView.addSubview(imageView)
         self.scrollView.contentSize = imageView.frame.size
         
-        self.navigationItem.title = "我"
-        
+        self.scrollView.contentSize = CGSizeMake(imageView.frame.size.width, imageView.frame.size.height+100)
+
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        if let ctl = self.navigationController?.viewControllers.last as? MineViewController {
+        } else {
+            self.navigationController?.setNavigationBarHidden(false, animated: true)
+        }
     }
     
     override func didReceiveMemoryWarning() {

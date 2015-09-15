@@ -20,7 +20,7 @@ class TravelDestinationViewController: UIViewController {
         imageView = UIImageView(image: UIImage(named: "travelDestination.png"))
         imageView.frame = CGRectMake(0, 0, self.view.bounds.size.width, imageView.bounds.size.height)
         self.scrollView.addSubview(imageView)
-        self.scrollView.contentSize = imageView.frame.size
+        self.scrollView.contentSize = CGSizeMake(imageView.frame.size.width, imageView.frame.size.height+100)
         
         self.navigationItem.title = "目的地"
         self.addPoiButton()
