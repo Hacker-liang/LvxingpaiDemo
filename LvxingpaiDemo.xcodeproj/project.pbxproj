@@ -132,6 +132,18 @@
 			name = SecondImages;
 			sourceTree = "<group>";
 		};
+		D91061A91BA7EB0200C4FBCB /* SecondController */ = {
+			isa = PBXGroup;
+			children = (
+				D97DB4D41BA66F3100D58154 /* TravelCategoryViewController.swift */,
+				D91061941BA7C94300C4FBCB /* TravelActivityViewController.swift */,
+				D91061991BA7E1CE00C4FBCB /* LightSpotOfPoiViewController.swift */,
+				D91061A11BA7E93600C4FBCB /* PoiPayDetailViewController.swift */,
+				D91061A31BA7E94000C4FBCB /* PoiPayListViewController.swift */,
+			);
+			name = SecondController;
+			sourceTree = "<group>";
+		};
 		D97DB4BB1BA6692E00D58154 /* tab */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,11 +185,7 @@
 				D9E9D1DD1BA27AB600FB6C07 /* Images.xcassets */,
 				D9E9D1D41BA27AB600FB6C07 /* Supporting Files */,
 				D91061931BA7C91B00C4FBCB /* HomeController */,
-				D97DB4D41BA66F3100D58154 /* TravelCategoryViewController.swift */,
-				D91061941BA7C94300C4FBCB /* TravelActivityViewController.swift */,
-				D91061991BA7E1CE00C4FBCB /* LightSpotOfPoiViewController.swift */,
-				D91061A11BA7E93600C4FBCB /* PoiPayDetailViewController.swift */,
-				D91061A31BA7E94000C4FBCB /* PoiPayListViewController.swift */,
+				D91061A91BA7EB0200C4FBCB /* SecondController */,
 				D9E9D2021BA280AB00FB6C07 /* Images */,
 			);
 			path = LvxingpaiDemo;
