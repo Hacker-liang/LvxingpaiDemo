@@ -17,13 +17,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lfa-3a-Pec">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfa-3a-Pec">
+                                <rect key="frame" x="0.0" y="5" width="600" height="595"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="lfa-3a-Pec" secondAttribute="trailing" id="6mc-Lp-kNk"/>
+                            <constraint firstAttribute="bottom" secondItem="lfa-3a-Pec" secondAttribute="bottom" id="9A3-f6-MPI"/>
+                            <constraint firstItem="lfa-3a-Pec" firstAttribute="top" secondItem="BPz-Q1-DEH" secondAttribute="top" constant="5" id="GCa-2c-8cx"/>
+                            <constraint firstItem="lfa-3a-Pec" firstAttribute="leading" secondItem="BPz-Q1-DEH" secondAttribute="leading" id="eTJ-Ny-0pU"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="E31-a1-cNB"/>
+                    <connections>
+                        <outlet property="scrollView" destination="lfa-3a-Pec" id="qQK-tx-UlO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jZ5-ji-svQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

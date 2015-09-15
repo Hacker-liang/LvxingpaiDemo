@@ -1,14 +1,15 @@
+
 //
-//  TravelCategoryViewController.swift
+//  TravelActivityViewController.swift
 //  LvxingpaiDemo
 //
-//  Created by liangpengshuai on 9/14/15.
+//  Created by liangpengshuai on 9/15/15.
 //  Copyright (c) 2015 com.xujianinc.www. All rights reserved.
 //
 
 import UIKit
 
-class TravelCategoryViewController: UIViewController {
+class TravelActivityViewController: UIViewController {
 
     var scrollView: UIScrollView!
     var imageView: UIImageView!
@@ -19,23 +20,14 @@ class TravelCategoryViewController: UIViewController {
         self.view.backgroundColor = UIColor.whiteColor()
         scrollView = UIScrollView(frame: CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height))
         self.view.addSubview(scrollView)
-        imageView = UIImageView(image: UIImage(named: "travelCategory.png"))
+        imageView = UIImageView(image: UIImage(named: "icon_activity.png"))
         imageView.frame = CGRectMake(0, 0, self.view.bounds.size.width, imageView.bounds.size.height)
         self.scrollView.addSubview(imageView)
         self.scrollView.contentSize = CGSizeMake(imageView.frame.size.width, imageView.frame.size.height+100)
         
-        self.navigationItem.title = "分类"
-        self.addCategoryBtn()
+        self.navigationItem.title = "滑翔"
     }
     
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-    }
-    
-    required init(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -44,24 +36,15 @@ class TravelCategoryViewController: UIViewController {
     func addCategoryBtn() {
         let btn = UIButton(frame: CGRectMake(150, 200, 320, self.view.bounds.size.width-150))
         btn.addTarget(self, action: "gotoActivity", forControlEvents: UIControlEvents.TouchUpInside)
-        self.scrollView.addSubview(btn)
     }
     
     
     //MARK: IBAction Methods
     
     func gotoActivity() {
-        let ctl = TravelActivityViewController()
-        ctl.hidesBottomBarWhenPushed = true
-        self.navigationController?.pushViewController(ctl, animated: true)
+      
+        
     }
 
+
 }
-
-
-
-
-
-
-
-

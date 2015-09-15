@@ -23,6 +23,7 @@ class TravelDestinationViewController: UIViewController {
         self.scrollView.contentSize = imageView.frame.size
         
         self.navigationItem.title = "目的地"
+        self.addPoiButton()
         
     }
     
@@ -30,4 +31,41 @@ class TravelDestinationViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
+    func addPoiButton() {
+        let btnOne = UIButton(frame: CGRectMake(115, 170, 125, 75))
+        btnOne.addTarget(self, action: "gotoPoiOne", forControlEvents: UIControlEvents.TouchUpInside)
+        self.scrollView.addSubview(btnOne)
+        
+        let btnTwo = UIButton(frame: CGRectMake(250, 170, 125, 75))
+        btnTwo.addTarget(self, action: "gotoPoiTwo", forControlEvents: UIControlEvents.TouchUpInside)
+        self.scrollView.addSubview(btnTwo)
+    }
+    
+    //MARK: IBAction Methods
+    
+    func gotoPoiOne() {
+        let ctl = LightSpotOfPoiViewController(poiType: 0)
+        ctl.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(ctl, animated: true)
+    }
+    
+    func gotoPoiTwo() {
+        let ctl = LightSpotOfPoiViewController(poiType: 1)
+        ctl.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(ctl, animated: true)
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

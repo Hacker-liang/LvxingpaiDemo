@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91061951BA7C94300C4FBCB /* TravelActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91061941BA7C94300C4FBCB /* TravelActivityViewController.swift */; };
+		D91061981BA7C97700C4FBCB /* icon_activity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D91061971BA7C97700C4FBCB /* icon_activity@2x.png */; };
+		D910619A1BA7E1CE00C4FBCB /* LightSpotOfPoiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91061991BA7E1CE00C4FBCB /* LightSpotOfPoiViewController.swift */; };
+		D910619D1BA7E27700C4FBCB /* lightspot_one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D910619B1BA7E27700C4FBCB /* lightspot_one@2x.png */; };
+		D910619E1BA7E27700C4FBCB /* lightspot_two@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D910619C1BA7E27700C4FBCB /* lightspot_two@2x.png */; };
+		D91061A01BA7E4DE00C4FBCB /* conversationList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D910619F1BA7E4DE00C4FBCB /* conversationList@2x.png */; };
+		D91061A21BA7E93600C4FBCB /* PoiPayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91061A11BA7E93600C4FBCB /* PoiPayDetailViewController.swift */; };
+		D91061A41BA7E94000C4FBCB /* PoiPayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91061A31BA7E94000C4FBCB /* PoiPayListViewController.swift */; };
+		D91061A71BA7E97800C4FBCB /* payList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D91061A51BA7E97800C4FBCB /* payList@2x.png */; };
+		D91061A81BA7E97800C4FBCB /* payDetail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D91061A61BA7E97800C4FBCB /* payDetail@2x.png */; };
 		D97DB4B41BA6674A00D58154 /* TravelDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97DB4B31BA6674A00D58154 /* TravelDestinationViewController.swift */; };
 		D97DB4B61BA6675600D58154 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97DB4B51BA6675600D58154 /* MineViewController.swift */; };
 		D97DB4B91BA6692500D58154 /* travelMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4B71BA6692500D58154 /* travelMine@2x.png */; };
@@ -21,7 +31,6 @@
 		D97DB4CD1BA6692E00D58154 /* icon_tabbar_mine_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4C31BA6692E00D58154 /* icon_tabbar_mine_selected@2x.png */; };
 		D97DB4D11BA66C2F00D58154 /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97DB4D01BA66C2F00D58154 /* ConversationListViewController.swift */; };
 		D97DB4D61BA66F3100D58154 /* TravelCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97DB4D41BA66F3100D58154 /* TravelCategoryViewController.swift */; };
-		D97DB4D71BA66F3100D58154 /* TravelCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97DB4D51BA66F3100D58154 /* TravelCategoryViewController.xib */; };
 		D9E9D1D71BA27AB600FB6C07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E9D1D61BA27AB600FB6C07 /* AppDelegate.swift */; };
 		D9E9D1DC1BA27AB600FB6C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9E9D1DA1BA27AB600FB6C07 /* Main.storyboard */; };
 		D9E9D1DE1BA27AB600FB6C07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9E9D1DD1BA27AB600FB6C07 /* Images.xcassets */; };
@@ -43,6 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D91061941BA7C94300C4FBCB /* TravelActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelActivityViewController.swift; sourceTree = "<group>"; };
+		D91061971BA7C97700C4FBCB /* icon_activity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_activity@2x.png"; sourceTree = "<group>"; };
+		D91061991BA7E1CE00C4FBCB /* LightSpotOfPoiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightSpotOfPoiViewController.swift; sourceTree = "<group>"; };
+		D910619B1BA7E27700C4FBCB /* lightspot_one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightspot_one@2x.png"; sourceTree = "<group>"; };
+		D910619C1BA7E27700C4FBCB /* lightspot_two@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightspot_two@2x.png"; sourceTree = "<group>"; };
+		D910619F1BA7E4DE00C4FBCB /* conversationList@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "conversationList@2x.png"; sourceTree = "<group>"; };
+		D91061A11BA7E93600C4FBCB /* PoiPayDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoiPayDetailViewController.swift; sourceTree = "<group>"; };
+		D91061A31BA7E94000C4FBCB /* PoiPayListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoiPayListViewController.swift; sourceTree = "<group>"; };
+		D91061A51BA7E97800C4FBCB /* payList@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payList@2x.png"; sourceTree = "<group>"; };
+		D91061A61BA7E97800C4FBCB /* payDetail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payDetail@2x.png"; sourceTree = "<group>"; };
 		D97DB4B31BA6674A00D58154 /* TravelDestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelDestinationViewController.swift; sourceTree = "<group>"; };
 		D97DB4B51BA6675600D58154 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		D97DB4B71BA6692500D58154 /* travelMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "travelMine@2x.png"; sourceTree = "<group>"; };
@@ -57,7 +76,6 @@
 		D97DB4C31BA6692E00D58154 /* icon_tabbar_mine_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_tabbar_mine_selected@2x.png"; sourceTree = "<group>"; };
 		D97DB4D01BA66C2F00D58154 /* ConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
 		D97DB4D41BA66F3100D58154 /* TravelCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelCategoryViewController.swift; sourceTree = "<group>"; };
-		D97DB4D51BA66F3100D58154 /* TravelCategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelCategoryViewController.xib; sourceTree = "<group>"; };
 		D9E9D1D11BA27AB600FB6C07 /* LvxingpaiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LvxingpaiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9E9D1D51BA27AB600FB6C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9E9D1D61BA27AB600FB6C07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +108,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D91061931BA7C91B00C4FBCB /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				D9E9D1F81BA27E2100FB6C07 /* HomeViewController.swift */,
+				D9E9D1FA1BA27FF100FB6C07 /* TravelDiscoveryViewController.swift */,
+				D97DB4D01BA66C2F00D58154 /* ConversationListViewController.swift */,
+				D97DB4B31BA6674A00D58154 /* TravelDestinationViewController.swift */,
+				D97DB4B51BA6675600D58154 /* MineViewController.swift */,
+			);
+			name = HomeController;
+			sourceTree = "<group>";
+		};
+		D91061961BA7C95F00C4FBCB /* SecondImages */ = {
+			isa = PBXGroup;
+			children = (
+				D91061A51BA7E97800C4FBCB /* payList@2x.png */,
+				D91061A61BA7E97800C4FBCB /* payDetail@2x.png */,
+				D910619B1BA7E27700C4FBCB /* lightspot_one@2x.png */,
+				D910619C1BA7E27700C4FBCB /* lightspot_two@2x.png */,
+				D91061971BA7C97700C4FBCB /* icon_activity@2x.png */,
+			);
+			name = SecondImages;
+			sourceTree = "<group>";
+		};
 		D97DB4BB1BA6692E00D58154 /* tab */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,13 +172,12 @@
 				D9E9D1DA1BA27AB600FB6C07 /* Main.storyboard */,
 				D9E9D1DD1BA27AB600FB6C07 /* Images.xcassets */,
 				D9E9D1D41BA27AB600FB6C07 /* Supporting Files */,
-				D9E9D1F81BA27E2100FB6C07 /* HomeViewController.swift */,
-				D9E9D1FA1BA27FF100FB6C07 /* TravelDiscoveryViewController.swift */,
-				D97DB4D01BA66C2F00D58154 /* ConversationListViewController.swift */,
+				D91061931BA7C91B00C4FBCB /* HomeController */,
 				D97DB4D41BA66F3100D58154 /* TravelCategoryViewController.swift */,
-				D97DB4D51BA66F3100D58154 /* TravelCategoryViewController.xib */,
-				D97DB4B31BA6674A00D58154 /* TravelDestinationViewController.swift */,
-				D97DB4B51BA6675600D58154 /* MineViewController.swift */,
+				D91061941BA7C94300C4FBCB /* TravelActivityViewController.swift */,
+				D91061991BA7E1CE00C4FBCB /* LightSpotOfPoiViewController.swift */,
+				D91061A11BA7E93600C4FBCB /* PoiPayDetailViewController.swift */,
+				D91061A31BA7E94000C4FBCB /* PoiPayListViewController.swift */,
 				D9E9D2021BA280AB00FB6C07 /* Images */,
 			);
 			path = LvxingpaiDemo;
@@ -170,6 +211,7 @@
 		D9E9D2021BA280AB00FB6C07 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D91061961BA7C95F00C4FBCB /* SecondImages */,
 				D97DB4BB1BA6692E00D58154 /* tab */,
 				D9E9D2031BA280B500FB6C07 /* HomeImages */,
 			);
@@ -179,6 +221,7 @@
 		D9E9D2031BA280B500FB6C07 /* HomeImages */ = {
 			isa = PBXGroup;
 			children = (
+				D910619F1BA7E4DE00C4FBCB /* conversationList@2x.png */,
 				D9E9D1FE1BA280A500FB6C07 /* travelCategory@2x.png */,
 				D9E9D1FF1BA280A500FB6C07 /* travelDiscovery@2x.png */,
 				D97DB4B71BA6692500D58154 /* travelMine@2x.png */,
@@ -268,18 +311,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				D97DB4C81BA6692E00D58154 /* icon_tabbar_chat_normal@2x.png in Resources */,
+				D91061A81BA7E97800C4FBCB /* payDetail@2x.png in Resources */,
+				D910619D1BA7E27700C4FBCB /* lightspot_one@2x.png in Resources */,
 				D97DB4C61BA6692E00D58154 /* icon_tabbar_discovery_selected@2x.png in Resources */,
 				D97DB4C91BA6692E00D58154 /* icon_tabbar_chat_selected@2x.png in Resources */,
 				D97DB4CB1BA6692E00D58154 /* icon_tabbar_destination_normal@2x.png in Resources */,
 				D97DB4C71BA6692E00D58154 /* icon_tabbar_discovery_normal@2x.png in Resources */,
 				D97DB4CC1BA6692E00D58154 /* icon_tabbar_mine_normal@2x.png in Resources */,
 				D97DB4BA1BA6692500D58154 /* travelDestination@2x.png in Resources */,
+				D91061A01BA7E4DE00C4FBCB /* conversationList@2x.png in Resources */,
+				D91061981BA7C97700C4FBCB /* icon_activity@2x.png in Resources */,
 				D97DB4B91BA6692500D58154 /* travelMine@2x.png in Resources */,
 				D97DB4CD1BA6692E00D58154 /* icon_tabbar_mine_selected@2x.png in Resources */,
+				D91061A71BA7E97800C4FBCB /* payList@2x.png in Resources */,
 				D9E9D1DC1BA27AB600FB6C07 /* Main.storyboard in Resources */,
 				D9E9D1DE1BA27AB600FB6C07 /* Images.xcassets in Resources */,
+				D910619E1BA7E27700C4FBCB /* lightspot_two@2x.png in Resources */,
 				D9E9D2011BA280A500FB6C07 /* travelDiscovery@2x.png in Resources */,
-				D97DB4D71BA66F3100D58154 /* TravelCategoryViewController.xib in Resources */,
 				D97DB4CA1BA6692E00D58154 /* icon_tabbar_destination_selected@2x.png in Resources */,
 				D9E9D2001BA280A500FB6C07 /* travelCategory@2x.png in Resources */,
 			);
@@ -299,11 +347,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91061A21BA7E93600C4FBCB /* PoiPayDetailViewController.swift in Sources */,
 				D97DB4B41BA6674A00D58154 /* TravelDestinationViewController.swift in Sources */,
 				D9E9D1FB1BA27FF100FB6C07 /* TravelDiscoveryViewController.swift in Sources */,
 				D97DB4D11BA66C2F00D58154 /* ConversationListViewController.swift in Sources */,
+				D91061951BA7C94300C4FBCB /* TravelActivityViewController.swift in Sources */,
+				D91061A41BA7E94000C4FBCB /* PoiPayListViewController.swift in Sources */,
 				D9E9D1D71BA27AB600FB6C07 /* AppDelegate.swift in Sources */,
 				D9E9D1F91BA27E2100FB6C07 /* HomeViewController.swift in Sources */,
+				D910619A1BA7E1CE00C4FBCB /* LightSpotOfPoiViewController.swift in Sources */,
 				D97DB4D61BA66F3100D58154 /* TravelCategoryViewController.swift in Sources */,
 				D97DB4B61BA6675600D58154 /* MineViewController.swift in Sources */,
 			);
