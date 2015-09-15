@@ -27,6 +27,8 @@ class TravelActivityViewController: UIViewController {
         self.scrollView.contentSize = CGSizeMake(imageView.frame.size.width, imageView.frame.size.height+100)
         
         self.navigationItem.title = "滑翔"
+        
+        self.addPayBtn()
     }
     
     override func didReceiveMemoryWarning() {
@@ -34,17 +36,19 @@ class TravelActivityViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func addCategoryBtn() {
-        let btn = UIButton(frame: CGRectMake(150, 200, 320, self.view.bounds.size.width-150))
-        btn.addTarget(self, action: "gotoActivity", forControlEvents: UIControlEvents.TouchUpInside)
+    func addPayBtn() {
+        let btn = UIButton(frame: CGRectMake(0, 440, self.view.bounds.size.width, 500))
+        self.scrollView.addSubview(btn)
+        btn.addTarget(self, action: "gotoPayDetail", forControlEvents: UIControlEvents.TouchUpInside)
     }
     
     
     //MARK: IBAction Methods
-    
-    func gotoActivity() {
-      
-        
+ 
+    func gotoPayDetail() {
+        let ctl = PoiPayDetailViewController()
+        ctl.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(ctl, animated: true)
     }
 
 

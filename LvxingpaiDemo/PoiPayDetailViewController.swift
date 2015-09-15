@@ -26,7 +26,8 @@ class PoiPayDetailViewController: UIViewController {
         self.scrollView.contentSize = CGSizeMake(imageView.frame.size.width, imageView.frame.size.height+100)
         
         self.navigationItem.title = "详情"
+
     }
-
-
+    
+    
 }

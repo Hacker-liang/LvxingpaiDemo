@@ -58,7 +58,6 @@ class LightSpotOfPoiViewController: UIViewController {
     }
     
     func addButtons() {
-        
         if self.poiType == 0 {
             let btn = UIButton(frame: CGRectMake(0, 260, self.view.bounds.size.width, 500))
             self.scrollView.addSubview(btn)
